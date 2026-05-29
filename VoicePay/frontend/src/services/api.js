@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:8080/api',
+    baseURL: 'https://voicepay-ftbjcaard5dkgxc0.centralindia-01.azurewebsites.net/api',
     headers: {
         'Content-Type': 'application/json',
     },
